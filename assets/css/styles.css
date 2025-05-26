@@ -91,6 +91,28 @@ footer {
   background-color: orange;
 }
 
+/* Media query: tablets and larger (768px and up) */
+@media screen {
+  /* Header */
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+  }
+  #menu {
+    display: flex;
+  }
+
+  #menu > li {
+    padding-left: 1rem;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+}
 /* // <weight>: Use a value from 200 to 700
 // <uniquifier>: Use a unique and descriptive class name */
 
