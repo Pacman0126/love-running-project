@@ -92,7 +92,7 @@ footer {
 }
 
 /* Media query: tablets and larger (768px and up) */
-@media screen {
+@media screen and (min-width: 768px) {
   /* Header */
   nav {
     display: block;
@@ -124,6 +124,14 @@ footer {
     margin-top: 79px;
   }
 }
+
+/* Media query: laptops and desktops (992px and up) */
+@media screen and (min-width: 992px) {
+  #menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+  }
+}
+
 /* // <weight>: Use a value from 200 to 700
 // <uniquifier>: Use a unique and descriptive class name */
 
